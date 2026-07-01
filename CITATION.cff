@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated paper."
+title: "Graph-based Complexity and Computational Capabilities of Proteinoid Spike Systems"
+authors:
+  - family-names: Sharma
+    given-names: Saksham
+    affiliation: "Cambridge Centre for Physical Biology"
+  - family-names: Mahmud
+    given-names: Adnan
+    affiliation: "Zuse Institute Berlin"
+  - family-names: Tarabella
+    given-names: Giuseppe
+    affiliation: "IMEM-CNR Parma"
+  - family-names: Mougoyannis
+    given-names: Panagiotis
+    affiliation: "Unconventional Computing Laboratory, UWE Bristol"
+  - family-names: Adamatzky
+    given-names: Andrew
+    affiliation: "Unconventional Computing Laboratory, UWE Bristol"
+version: 1.0.0
+date-released: 2025-04-29
+license: MIT
+repository-code: "https://github.com/Adnan1729/Protocognitive_Agents"
+preferred-citation:
+  type: article
+  title: "Graph-based Complexity and Computational Capabilities of Proteinoid Spike Systems"
+  authors:
+    - family-names: Sharma
+      given-names: Saksham
+    - family-names: Mahmud
+      given-names: Adnan
+    - family-names: Tarabella
+      given-names: Giuseppe
+    - family-names: Mougoyannis
+      given-names: Panagiotis
+    - family-names: Adamatzky
+      given-names: Andrew
+  year: 2025
+  identifiers:
+    - type: other
+      value: "arXiv:2504.10362"
+      description: "arXiv preprint"

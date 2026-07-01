@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "proteinoid_spikes"
+version = "1.0.0"
+description = "Graph-based complexity and computational capabilities of proteinoid spike systems"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+authors = [
+    { name = "Saksham Sharma" },
+    { name = "Adnan Mahmud" },
+    { name = "Giuseppe Tarabella" },
+    { name = "Panagiotis Mougoyannis" },
+    { name = "Andrew Adamatzky" },
+]
+keywords = ["proteinoids", "spike trains", "graph complexity", "neural networks", "unconventional computing"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+]
+dependencies = [
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "scipy>=1.10",
+    "networkx>=3.0",
+    "scikit-learn>=1.2",
+    "tensorflow>=2.12",
+    "matplotlib>=3.6",
+    "seaborn>=0.12",
+]
+
+[project.urls]
+"Paper" = "https://arxiv.org/abs/2504.10362"
+"Repository" = "https://github.com/Adnan1729/Protocognitive_Agents"
+
+[tool.setuptools.packages.find]
+where = ["src"]
